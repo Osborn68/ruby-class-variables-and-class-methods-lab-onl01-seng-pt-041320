@@ -31,7 +31,6 @@ class Song
   def self.genre_count
     genre_count = {}
       @@genres.each do {|genre| genre_count[genre] += 1}
-    end 
          genre_count
        end 
      
